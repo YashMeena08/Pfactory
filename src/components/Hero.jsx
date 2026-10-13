@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function Hero() {
   return (
     <section className="bg-amber-50 py-20">
@@ -11,12 +13,12 @@ function Hero() {
         <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
           Sofas, beds, chairs and tables, crafted in our own workshop and made to suit your space.
         </p>
-        <a
-          href="#"
+        <Link
+          to="/products"
           className="mt-8 inline-block rounded bg-amber-800 px-6 py-3 text-white hover:bg-amber-900"
         >
           Browse Designs
-        </a>
+        </Link>
       </div>
     </section>
   )
