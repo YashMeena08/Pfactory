@@ -2,7 +2,10 @@ function Hero() {
   return (
     <section className="bg-amber-50 py-20">
       <div className="mx-auto max-w-6xl px-4 text-center">
-        <h1 className="text-4xl font-bold text-gray-900 md:text-5xl">
+        <p className="text-sm font-semibold uppercase tracking-widest text-amber-800">
+          RM Furniture
+        </p>
+        <h1 className="mt-3 text-4xl font-bold text-gray-900 md:text-5xl">
           Furniture made for your home
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">

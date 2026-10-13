@@ -3,7 +3,7 @@ function Navbar() {
     <header className="bg-white shadow">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
         <a href="/" className="text-xl font-bold text-amber-800">
-          Your Brand
+          RM Furniture
         </a>
         <ul className="flex gap-6 text-gray-700">
           <li><a href="/">Home</a></li>
