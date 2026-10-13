@@ -1,11 +1,5 @@
 import { Link } from 'react-router-dom'
-
-function formatPrice(product) {
-  const amount = new Intl.NumberFormat('en-IN').format(product.price)
-  return product.pricingType === 'starting'
-    ? `Starting from ₹${amount}`
-    : `₹${amount}`
-}
+import { formatPrice } from '../utils/formatPrice'
 
 function ProductCard({ product }) {
   return (

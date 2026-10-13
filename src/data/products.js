@@ -1,5 +1,5 @@
-// Sample data for development. Replace names, prices and descriptions
-// with your real products. Never show prices you don't actually offer.
+// Sample data for development. Replace everything with your real products.
+// Never show prices, sizes or timelines you don't actually offer.
 export const products = [
   {
     id: 1,
@@ -9,6 +9,10 @@ export const products = [
     pricingType: 'starting',
     price: 45000,
     description: 'Spacious L-shaped sofa, made to your dimensions and fabric choice.',
+    dimensions: 'Custom sizes available',
+    materials: 'Wooden frame, foam cushioning, fabric upholstery',
+    options: ['Fabric choice', 'Colour choice', 'Custom dimensions'],
+    manufacturingTime: '3 to 4 weeks',
     featured: true,
   },
   {
@@ -19,6 +23,10 @@ export const products = [
     pricingType: 'starting',
     price: 32000,
     description: 'Three-seater designer sofa with a choice of finishes.',
+    dimensions: 'Three-seater, custom sizes available',
+    materials: 'Wooden frame, foam cushioning, fabric upholstery',
+    options: ['Fabric choice', 'Leg finish'],
+    manufacturingTime: '3 weeks',
     featured: true,
   },
   {
@@ -29,6 +37,10 @@ export const products = [
     pricingType: 'fixed',
     price: 28000,
     description: 'Converts from a sofa to a bed for guests.',
+    dimensions: 'Please enquire',
+    materials: 'Wooden frame, foam cushioning, fabric upholstery',
+    options: ['Fabric choice'],
+    manufacturingTime: '3 weeks',
     featured: false,
   },
   {
@@ -39,6 +51,10 @@ export const products = [
     pricingType: 'starting',
     price: 38000,
     description: 'Queen-size bed with a designer padded headboard.',
+    dimensions: 'Queen size, other sizes on request',
+    materials: 'Wooden frame, padded upholstered headboard',
+    options: ['Headboard design', 'Fabric choice', 'Bed size'],
+    manufacturingTime: '3 to 4 weeks',
     featured: true,
   },
   {
@@ -49,6 +65,10 @@ export const products = [
     pricingType: 'fixed',
     price: 9500,
     description: 'Comfortable accent chair in your choice of fabric.',
+    dimensions: 'Please enquire',
+    materials: 'Wooden frame, fabric upholstery',
+    options: ['Fabric choice', 'Colour choice'],
+    manufacturingTime: '2 weeks',
     featured: false,
   },
   {
@@ -59,6 +79,10 @@ export const products = [
     pricingType: 'fixed',
     price: 12000,
     description: 'Solid wood coffee table with a clean finish.',
+    dimensions: 'Please enquire',
+    materials: 'Solid wood',
+    options: ['Wood finish'],
+    manufacturingTime: '2 weeks',
     featured: true,
   },
   {
@@ -69,6 +93,10 @@ export const products = [
     pricingType: 'fixed',
     price: 5500,
     description: 'Compact side table for living rooms and bedrooms.',
+    dimensions: 'Please enquire',
+    materials: 'Wood',
+    options: ['Wood finish'],
+    manufacturingTime: '1 to 2 weeks',
     featured: false,
   },
 ]
